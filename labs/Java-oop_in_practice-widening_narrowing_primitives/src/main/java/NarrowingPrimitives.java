@@ -17,22 +17,22 @@ public class NarrowingPrimitives {
 
   //divide our number by 1_000 and return it as a float
   public float toFloat(){
-    return (float) bigNumber;
+    return (float) (bigNumber/1_000) ;
   }
 
   //divide our number by 1_000_000 and return it as an int
   public int toInt(){
-    return (int) bigNumber;
+    return (int) (bigNumber/1_000_000);
   }
 
   //divide our number by 1_000_000_000 and return it as a short
   public short toShort(){
-    return (short) bigNumber;
+    return (short) (bigNumber/1_000_000_000) ;
   }
 
   //divide our number by 10_000_000_000L and return it as a byte
   public byte toByte(){
-    return (byte) bigNumber;
+    return (byte) (bigNumber/10_000_000_000L);
   }
 
 }
