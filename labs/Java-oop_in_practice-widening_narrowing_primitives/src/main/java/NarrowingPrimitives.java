@@ -15,18 +15,18 @@ public class NarrowingPrimitives {
     }
 
     public float toFloat() {
-        return (float) this.bigNumber/1_000;
+        return Float.valueOf(this.bigNumber/1_000);
     }
 
     public int toInt() {
-        return (int) (this.bigNumber/1_000_000);
+        return Integer.valueOf((int) (this.bigNumber/1_000_000));
     }
 
     public short toShort() {
-        return (short) (this.bigNumber/1_000_000_000);
+        return Short.valueOf((short) (this.bigNumber/1_000_000_000));
     }
 
     public byte toByte() {
-        return (byte) (this.bigNumber/10_000_000_000L);
+        return Byte.valueOf((byte) (this.bigNumber/10_000_000_000L));
     }
 }
