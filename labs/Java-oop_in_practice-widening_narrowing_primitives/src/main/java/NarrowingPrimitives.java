@@ -1,8 +1,38 @@
 public class NarrowingPrimitives {
 
-  private final long bigNumber;
+    private final long bigNumber;
 
-  public NarrowingPrimitives(long bigNumber) {
-    this.bigNumber = bigNumber;
-  }
+    public NarrowingPrimitives(long bigNumber) {
+        this.bigNumber = bigNumber;
+    }
+
+    //simply return our number as a long
+    public long getBigNumber() {
+        return bigNumber;
+    }
+
+    //simply return our number as a double
+    public double toDouble() {
+        return bigNumber;
+    }
+
+    //divide our number by 1_000 and return it as a float
+    public float toFloat() {
+        return bigNumber / 1_000.0f;
+    }
+
+    //divide our number by 1_000_000 and return it as an int
+    public int toInt() {
+        return (int) (bigNumber / 1_000_000);
+    }
+
+    //divide our number by 1_000_000_000 and return it as a short
+    public short toShort() {
+        return (short) (bigNumber / 1_000_000_000);
+    }
+
+    //divide our number by 10_000_000_000L and return it as a byte
+    public byte toByte() {
+        return (byte) (bigNumber / 10_000_000_000L);
+    }
 }
