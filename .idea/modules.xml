@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/W09-D03-Type-Casting.iml" filepath="$PROJECT_DIR$/.idea/W09-D03-Type-Casting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class-code/class-code.iml" filepath="$PROJECT_DIR$/class-code/class-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labs/Java-oop_in_practice-widening_narrowing_primitives/src/main/main.iml" filepath="$PROJECT_DIR$/labs/Java-oop_in_practice-widening_narrowing_primitives/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labs/Java-oop_in_practice-widening_narrowing_primitives/src/test/test.iml" filepath="$PROJECT_DIR$/labs/Java-oop_in_practice-widening_narrowing_primitives/src/test/test.iml" />
+    </modules>
+  </component>
+</project>
